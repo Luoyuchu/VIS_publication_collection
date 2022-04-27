@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Progress Bar</title>
+    <script src="https://cdn.bootcss.com/jquery/3.0.0/jquery.min.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<button id="run_all">立刻重新爬取全部数据</button>
+<button id="run_recent">立刻爬取更新最新的10页数据</button>
+<span id="disable_button" style="color: red">当前已有任务正在进行</span>
+<br><br>
+<div> 上一次爬取全部数据的时间：<span id="last_all"></span></div>
+<div> 上一次爬取最新10页数据的时间：<span id="last_recent"></span></div>
+<div> 当前任务：<span id="progress_detail"></span></div>
+<div class="progress">
+    
+    <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"
+         style="width: 10%">0.00%
+    </div>
+</div>
+<button id="download">下载当前数据</button> <label></label>
+</body>
+<script>
+    function set_progress_rate(n, total) {
+        //Set the rate of progress bar
+        var rate = (n / total * 100).toFixed(2);
+        if (n > 0) {
+            $(".progress-bar").attr("aria-valuenow", n);
+            $(".progress-bar").attr("aria-valuemax", total);
+            $(".progress-bar").text(rate + "%");
+            $(".progress-bar").css("width", rate + "%");
+        }
+        $("#progress_detail").text(`${n} / ${total}`)
+    }
+
+    $("#run_all").click(function () {
+        //Run the task
+        $.ajax({
+            url: "http://192.168.10.124/help_shanghai/updateall/",
+            type: "GET",
+            success: function (response) {
+                console.log('Results：' + response['results']);
+            }
+        });
+    });
+    $("#run_recent").click(function () {
+        //Run the task
+        $.ajax({
+            url: "http://192.168.10.124/help_shanghai/updaterecent/",
+            type: "GET",
+            success: function (response) {
+                console.log('Results：' + response['results']);
+            }
+        });
+    });
+    $("#download").click(function () {
+        //Run the task
+        $("#download").text("正在打包数据，请稍等").prop("disabled", true)
+        $.ajax({
+            url: "http://192.168.10.124/help_shanghai/download/",
+            type: "GET",
+            success: function (response) {
+                var a = document.createElement('a');
+                var blob = new Blob([response]);
+                var url = window.URL.createObjectURL(blob);
+                a.href = url;
+                a.download = 'data.csv';
+                document.body.append(a);
+                a.click();
+                a.remove();
+                window.URL.revokeObjectURL(url);
+                $("#download").text("下载当前数据").prop("disabled", false)
+            }
+        });
+    });
+    $("#disable_button").css("display", "none")
+    function query() {
+        //Show progress every 1 second
+        $.ajax({
+            url: "http://192.168.10.124/help_shanghai/progress/",
+            type: "GET",
+            success: function (response) {
+                console.log(response);
+                var n = response["n"];
+                var total = response["total"];
+                var running = response['running']
+                if ((+running) === 1) {
+                    $("button").prop('disabled', true)
+                    $("#disable_button").css("display", "unset")
+                }
+                else {
+                    $("button").prop('disabled', false)
+                    $("#disable_button").css("display", "none")
+                }
+                $("#last_all").text(new Date(response["last_all"]).toLocaleString())
+                $("#last_recent").text(new Date(response["last_recent"]).toLocaleString())
+                set_progress_rate(n, total);
+            }
+        });
+        setTimeout(query, 1000);
+    };
+    query()
+</script>
+</html>

@@ -1,0 +1,560 @@
+<html>
+<head>
+        <meta name="viewport" content="width=device-width">
+    <meta charset="utf-8">
+    <title>我们来帮你 · 上海抗疫互助</title>
+    <meta name="description" content="我们来帮你 · 上海抗疫互助">
+    <link rel="stylesheet" type="text/css"
+          href="https://daohouer-file.oss-cn-shanghai.aliyuncs.com/5ab33e95722fefb4.css">
+    <link rel="stylesheet" type="text/css"
+          href="https://daohouer-file.oss-cn-shanghai.aliyuncs.com/9dd0241204ad8f48.css">
+    <link rel="stylesheet" type="text/css" href="https://daohouer-file.oss-cn-shanghai.aliyuncs.com/style.css">
+    <link rel="stylesheet" type="text/css"
+          href="https://daohouer-file.oss-cn-shanghai.aliyuncs.com/css/jquery.dataTables.min.css">
+
+</head>
+<body>
+
+<div>
+    <div>
+        <ul class="header_list__okof9">
+            <li class="header_listItem__DllsN"><img class="header_logo__oc5yy"
+                                                    src="https://daohouer-file.oss-cn-shanghai.aliyuncs.com/img/logo.png">
+            </li>
+            <li class="header_listItem__DllsN header_slogan__tKKNL">
+                <div class="header_title___kkKE">我们来帮你</div>
+                <div class="header_subtitle__xm2Xo" style="font-size: 12px">上海抗疫互助</div>
+            </li>
+            <li class="header_listItem__DllsN header_listItem2__jxaCC header_active__eJd1H">
+                <a href="index.php" style="color:#333">求助<img class="header_sos___QSwM"
+                                                              src="https://daohouer-file.oss-cn-shanghai.aliyuncs.com/img/sos.png"></a>
+            </li>
+            <li class="header_listItem__DllsN header_listItem2__jxaCC ">
+                <a href="send.php" style="color:#333">发布求助</a>
+            </li>
+            <li class="header_listItem__DllsN header_listItem2__jxaCC">
+                <a href="content.php" style="color:#333">联系我们</a>
+            </li>
+        </ul>
+    </div>
+    <div class="help_info__PSQ5C">
+        <div class="help_content__hpSjR">
+            <div class="help_sloganBox__YInC2"><span
+                        class="help_slogans__VeCX5">最新求助更新时间：2022-04-16 23:25</span>
+                <a href="send.php">
+                    <button class="help_btn__11d_U">发布求助信息</button>
+                </a>
+                <!--                <label class="ant-checkbox-wrapper" for="qdate">-->
+                <!--                    <form action="index.php" method="get" id="qform">-->
+                <!--                        <input type="checkbox" value="1" name="qdate"-->
+                <!--                               id="qdate" -->                <!--                               onclick="javascript:subform()">-->
+                <!--                        只看3小时内-->
+                <!--                    </form>-->
+                <!--                </label>-->
+            </div>
+            <form action="index.php" method="get" id="sform">
+                <div>
+                    <input type="checkbox" value="1" name="qdate"
+                           id="qdate"                            onclick="javascript:subform1()">
+                    只看3小时内
+                </div>
+                <div class="help_filterBox__ekwYY">
+                    <input id="page_input" type="hidden" name="page" value="282">
+                    <div class="help_filterItem__qunYT"><span class="help_pr20__6rFRC">紧急程度</span>
+                        <div class="ant-select help_selectbox__IaKZW ant-select-single ant-select-show-arrow">
+                            <div class="ant-select-selector" style="padding: 0;">
+                                <select style="width: 100%;border: none" name="hdid" onchange="javascript:subform1()">
+                                    <option value="">全部</option>
+                                    <option value="1" >极紧急</option>
+                                    <option value="2" >紧急</option>
+                                    <option value="3" >较急</option>
+                                </select>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="help_filterItem__qunYT"><span class="help_pr20__6rFRC">分类</span>
+                        <div class="ant-select help_selectbox__IaKZW ant-select-single ant-select-show-arrow">
+                            <div class="ant-select-selector" style="padding: 0;">
+                                <select style="width: 100%;border: none" name="cjtype" onchange="javascript:subform1()">
+                                    <option value="">全部</option>
+                                    <option value="1" >重病</option>
+                                    <option value="2" >疾病</option>
+                                    <option value="3" >物资</option>
+                                    <option value="4" >其他</option>
+                                </select>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="help_filterItem__qunYT"><span class="help_pr20__6rFRC">地址</span>
+                        <div class="ant-select help_selectbox__IaKZW ant-select-single ant-select-show-arrow">
+                            <div class="ant-select-selector" style="padding: 0;">
+                                <select style="width: 100%;border: none" name="address"
+                                        onchange="javascript:subform1()">
+                                    <option value="">全部</option>
+                                    <option value="黄浦区" >黄浦区
+                                    </option>
+                                    <option value="徐汇区" >徐汇区
+                                    </option>
+                                    <option value="长宁区" >长宁区
+                                    </option>
+                                    <option value="静安区" >静安区
+                                    </option>
+                                    <option value="普陀区" >普陀区
+                                    </option>
+                                    <option value="虹口区" >虹口区
+                                    </option>
+                                    <option value="杨浦区" >杨浦区
+                                    </option>
+                                    <option value="闵行区" >闵行区
+                                    </option>
+                                    <option value="宝山区" >宝山区
+                                    </option>
+                                    <option value="嘉定区" >嘉定区
+                                    </option>
+                                    <option value="浦东新区" >
+                                        浦东新区
+                                    </option>
+                                    <option value="金山区" >金山区
+                                    </option>
+                                    <option value="松江区" >松江区
+                                    </option>
+                                    <option value="青浦区" >青浦区
+                                    </option>
+                                    <option value="奉贤区" >奉贤区
+                                    </option>
+                                    <option value="崇明区" >崇明区
+                                    </option>
+                                </select>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </form>
+
+            
+            <div class="help_statusBox__OpeOL">
+                <div class="help_statusItem__puwt2">
+                    <img class="help_icons__OC0oz"
+                         src="https://daohouer-file.oss-cn-shanghai.aliyuncs.com/img/icon1.png">
+                    <span>待跟进3%</span>
+                </div>
+                <div class="help_statusItem__puwt2">
+                    <img class="help_icons__OC0oz"
+                         src="https://daohouer-file.oss-cn-shanghai.aliyuncs.com/img/icon2.png">
+                    <span>跟进中77%</span>
+                </div>
+                <div class="help_statusItem__puwt2">
+                    <img class="help_icons__OC0oz"
+                         src="https://daohouer-file.oss-cn-shanghai.aliyuncs.com/img/icon3.png">
+                    <span>已解决18%</span>
+                </div>
+            </div>
+            <style>
+                .modal-window {
+                    position: fixed;
+                    background-color: rgba(0, 0, 0, 0.25);
+                    top: 0;
+                    right: 0;
+                    bottom: 0;
+                    left: 0;
+                    z-index: 999;
+                    visibility: hidden;
+                    opacity: 0;
+                    pointer-events: none;
+                    transition: all 0.3s;
+                    width: 100%;
+                    line-height: 2;
+                }
+
+                .modal-window:target {
+                    visibility: visible;
+                    opacity: 1;
+                    pointer-events: auto;
+                }
+
+                .modal-window > div {
+                    width: 100%;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    -webkit-transform: translate(-50%, -50%);
+                    transform: translate(-50%, -50%);
+                    padding: 2em;
+                    background: #ffffff;
+                }
+
+                .modal-window header {
+                    font-weight: bold;
+                }
+
+                .modal-window h1 {
+                    font-size: 150%;
+                    margin: 0 0 15px;
+                }
+
+                .modal-close {
+                    color: #aaa;
+                    line-height: 50px;
+                    font-size: 80%;
+                    position: absolute;
+                    right: 0;
+                    text-align: center;
+                    top: 0;
+                    width: 70px;
+                    text-decoration: none;
+                }
+
+                .modal-close:hover {
+                    color: black;
+                }
+            </style>
+            <style>
+                .dataTables_length {
+                    display: none;
+                }
+
+                .dataTables_info {
+                    display: none;
+                }
+
+                .dataTables_paginate {
+                    font-size: 12px
+                }
+
+                table.dataTable tbody th, table.dataTable tbody td {
+                    padding: 8px 6px;
+                    border-bottom: 1px solid #efefef;
+                }
+
+                table.dataTable thead th {
+                    border-bottom: 1px solid #efefef;
+                }
+
+                .previous {
+                    display: none;
+                }
+
+                #table_id_example_previous {
+                    display: none;
+                }
+
+                #table_id_example_next {
+                    display: none;
+                }
+
+                table.dataTable.no-footer {
+                    border-bottom: 1px solid #efefef;
+                }
+            </style>
+            <table id="table_id_example" style="font-size:12px;">
+                <thead>
+                <tr>
+                    <th style="white-space:nowrap;padding: 10px 0;">编号</th>
+                    <th style="white-space:nowrap;">时间</th>
+                    <th style="white-space:nowrap;">程度</th>
+                    <th style="white-space:nowrap;">分类</th>
+                    <th style="white-space:nowrap;">摘要</th>
+                    <th style="white-space:nowrap;">地址</th>
+                    <th style="white-space:nowrap;">详情</th>
+                </tr>
+                </thead>
+                <tbody>
+                                    <tr style="max-height: 100px;overflow: hidden;">
+                        <td style="white-space:nowrap;padding: 8px 0;">875</td>
+                        <td style="white-space:nowrap;"><img class="help_miniIcons__glGt7"
+                                                             src="https://daohouer-file.oss-cn-shanghai.aliyuncs.com/img/icon3.png">04-11                            <br>23:37:24                        </td>
+                        <td style="white-space:nowrap;"><span class="help_dangrou__b6AF_" style="width: 50px">极紧急</span></td>
+                        <td style="white-space:nowrap;text-align: center">重病</td>
+                        <td>输血</td>
+                        <td style="white-space:nowrap;text-align: center;">浦东新区</td>
+                        <td>
+
+                            <a class="btn" href="#open-modal875">查看</a>
+                            <div id="open-modal875" class="modal-window">
+                                <div>
+                                    <a href="#" title="Close" class="modal-close">Close</a>
+                                                                            <h4 style="font-weight: bold">求助内容</h4>
+                                        泰迪犬，病危，红细胞低，胰腺炎导致拉血，已输过一次血，现需要愿意献血灵缇狗                                                                                                                <br>联系人：李                                                                                                                                                            <br>联系电话：134****122�                                                                            
+                                    
+                                                                    </div>
+                            </div>
+
+                        </td>
+                    </tr>
+                                    <tr style="max-height: 100px;overflow: hidden;">
+                        <td style="white-space:nowrap;padding: 8px 0;">872</td>
+                        <td style="white-space:nowrap;"><img class="help_miniIcons__glGt7"
+                                                             src="https://daohouer-file.oss-cn-shanghai.aliyuncs.com/img/icon2.png">04-11                            <br>23:30:51                        </td>
+                        <td style="white-space:nowrap;"><span class="help_dangrou__b6AF_" style="width: 50px">极紧急</span></td>
+                        <td style="white-space:nowrap;text-align: center">疾病</td>
+                        <td>阳性隔离</td>
+                        <td style="white-space:nowrap;text-align: center;">闵行区</td>
+                        <td>
+
+                            <a class="btn" href="#open-modal872">查看</a>
+                            <div id="open-modal872" class="modal-window">
+                                <div>
+                                    <a href="#" title="Close" class="modal-close">Close</a>
+                                                                            <h4 style="font-weight: bold">求助内容</h4>
+                                        阳性患者未隔离 居住条件差 无自我隔离条件                                                                                                                <br>联系人：杨迪娃                                                                                                                                                            <br>联系电话：139****7704                                                                            
+                                    
+                                                                    </div>
+                            </div>
+
+                        </td>
+                    </tr>
+                                    <tr style="max-height: 100px;overflow: hidden;">
+                        <td style="white-space:nowrap;padding: 8px 0;">871</td>
+                        <td style="white-space:nowrap;"><img class="help_miniIcons__glGt7"
+                                                             src="https://daohouer-file.oss-cn-shanghai.aliyuncs.com/img/icon3.png">04-11                            <br>23:22:19                        </td>
+                        <td style="white-space:nowrap;"><span class="help_woring__7R1Ri"  style="width: 50px">紧急</span></td>
+                        <td style="white-space:nowrap;text-align: center">疾病</td>
+                        <td>药物</td>
+                        <td style="white-space:nowrap;text-align: center;">长宁区</td>
+                        <td>
+
+                            <a class="btn" href="#open-modal871">查看</a>
+                            <div id="open-modal871" class="modal-window">
+                                <div>
+                                    <a href="#" title="Close" class="modal-close">Close</a>
+                                                                            <h4 style="font-weight: bold">求助内容</h4>
+                                        宜诺思盐酸文拉法辛缓释胶囊                                                                                                                <br>联系人：鹿三三                                                                                                                                                            <br>联系电话：187****1118                                                                            
+                                    
+                                                                    </div>
+                            </div>
+
+                        </td>
+                    </tr>
+                                    <tr style="max-height: 100px;overflow: hidden;">
+                        <td style="white-space:nowrap;padding: 8px 0;">869</td>
+                        <td style="white-space:nowrap;"><img class="help_miniIcons__glGt7"
+                                                             src="https://daohouer-file.oss-cn-shanghai.aliyuncs.com/img/icon2.png">04-11                            <br>23:14:32                        </td>
+                        <td style="white-space:nowrap;"><span class="help_dangrou__b6AF_" style="width: 50px">极紧急</span></td>
+                        <td style="white-space:nowrap;text-align: center">重病</td>
+                        <td>****</td>
+                        <td style="white-space:nowrap;text-align: center;">虹口区</td>
+                        <td>
+
+                            <a class="btn" href="#open-modal869">查看</a>
+                            <div id="open-modal869" class="modal-window">
+                                <div>
+                                    <a href="#" title="Close" class="modal-close">Close</a>
+                                                                            <h4 style="font-weight: bold">求助内容</h4>
+                                        虹口区**公寓******阳性患者**转移                                                                                                                <br>联系人：宋女士                                                                                                                                                            <br>联系电话：137****4077                                                                            
+                                    
+                                                                    </div>
+                            </div>
+
+                        </td>
+                    </tr>
+                                    <tr style="max-height: 100px;overflow: hidden;">
+                        <td style="white-space:nowrap;padding: 8px 0;">868</td>
+                        <td style="white-space:nowrap;"><img class="help_miniIcons__glGt7"
+                                                             src="https://daohouer-file.oss-cn-shanghai.aliyuncs.com/img/icon3.png">04-11                            <br>23:08:21                        </td>
+                        <td style="white-space:nowrap;"><span class="help_woring__7R1Ri"  style="width: 50px">紧急</span></td>
+                        <td style="white-space:nowrap;text-align: center">其他</td>
+                        <td>猫狗喂养</td>
+                        <td style="white-space:nowrap;text-align: center;">浦东新区</td>
+                        <td>
+
+                            <a class="btn" href="#open-modal868">查看</a>
+                            <div id="open-modal868" class="modal-window">
+                                <div>
+                                    <a href="#" title="Close" class="modal-close">Close</a>
+                                                                            <h4 style="font-weight: bold">求助内容</h4>
+                                        求助求助，有没有好心人帮忙喂喂我店里的猫咪，因为疫情被封被隔离在家，店里有8只猫咪，一只狗关在浦东新区源华路510弄绿源电动车店，3月27日的时候家里的老母亲有去店里放了食水，现在也出不去了，但是估计已经吃完了，求求附近的小伙伴或者志愿者帮忙喂喂吃的，喂喂水！猫咪狗狗都是七八年十岁的年纪了                                                                                                                <br>联系人：唐女士                                                                                                                                                            <br>联系电话：136****6379                                                                            
+                                    
+                                                                    </div>
+                            </div>
+
+                        </td>
+                    </tr>
+                                    <tr style="max-height: 100px;overflow: hidden;">
+                        <td style="white-space:nowrap;padding: 8px 0;">866</td>
+                        <td style="white-space:nowrap;"><img class="help_miniIcons__glGt7"
+                                                             src="https://daohouer-file.oss-cn-shanghai.aliyuncs.com/img/icon2.png">04-11                            <br>22:56:55                        </td>
+                        <td style="white-space:nowrap;"><span class="help_woring__7R1Ri"  style="width: 50px">紧急</span></td>
+                        <td style="white-space:nowrap;text-align: center">其他</td>
+                        <td>需要消杀</td>
+                        <td style="white-space:nowrap;text-align: center;">闵行区</td>
+                        <td>
+
+                            <a class="btn" href="#open-modal866">查看</a>
+                            <div id="open-modal866" class="modal-window">
+                                <div>
+                                    <a href="#" title="Close" class="modal-close">Close</a>
+                                                                            <h4 style="font-weight: bold">求助内容</h4>
+                                        楼道消杀，******，没有***** 没有进行全面消毒。***陆续******，需要消杀，*****                                                                                                                <br>联系人：林子                                                                                                                                                            <br>联系电话：177****6460                                                                            
+                                    
+                                                                    </div>
+                            </div>
+
+                        </td>
+                    </tr>
+                                    <tr style="max-height: 100px;overflow: hidden;">
+                        <td style="white-space:nowrap;padding: 8px 0;">864</td>
+                        <td style="white-space:nowrap;"><img class="help_miniIcons__glGt7"
+                                                             src="https://daohouer-file.oss-cn-shanghai.aliyuncs.com/img/icon2.png">04-11                            <br>22:54:20                        </td>
+                        <td style="white-space:nowrap;"><span class="help_dangrou__b6AF_" style="width: 50px">极紧急</span></td>
+                        <td style="white-space:nowrap;text-align: center">疾病</td>
+                        <td>心脏支架</td>
+                        <td style="white-space:nowrap;text-align: center;">宝山区</td>
+                        <td>
+
+                            <a class="btn" href="#open-modal864">查看</a>
+                            <div id="open-modal864" class="modal-window">
+                                <div>
+                                    <a href="#" title="Close" class="modal-close">Close</a>
+                                                                            <h4 style="font-weight: bold">求助内容</h4>
+                                        琥珀酸美托洛尔缓释片（两盒），阿托伐他汀钙片（4盒），阿斯匹林肠溶片（一盒），硫酸氢氯吡格雷片（一盒）                                                                                                                <br>联系人：宋女士                                                                                                                                                            <br>联系电话：157****5528                                                                            
+                                    
+                                                                    </div>
+                            </div>
+
+                        </td>
+                    </tr>
+                                    <tr style="max-height: 100px;overflow: hidden;">
+                        <td style="white-space:nowrap;padding: 8px 0;">863</td>
+                        <td style="white-space:nowrap;"><img class="help_miniIcons__glGt7"
+                                                             src="https://daohouer-file.oss-cn-shanghai.aliyuncs.com/img/icon3.png">04-11                            <br>22:40:52                        </td>
+                        <td style="white-space:nowrap;"><span class="help_dangrou__b6AF_" style="width: 50px">极紧急</span></td>
+                        <td style="white-space:nowrap;text-align: center">重病</td>
+                        <td>癌症求助</td>
+                        <td style="white-space:nowrap;text-align: center;">长宁区</td>
+                        <td>
+
+                            <a class="btn" href="#open-modal863">查看</a>
+                            <div id="open-modal863" class="modal-window">
+                                <div>
+                                    <a href="#" title="Close" class="modal-close">Close</a>
+                                                                            <h4 style="font-weight: bold">求助内容</h4>
+                                        求助：病人70岁，在华山医院诊断：肝细胞癌、肝炎后肝硬化、慢性丙性肝炎，求助没有交通工具前往华山医院治疗，现已断药三天，急需乐卫玛的甲磺酸仑伐替尼胶囊（4mgx30粒）一盒，急救！！！
+患者是知青返沪人员异地医保，此药只能住院才能报销。华山医院住院需要48小时2次市级医院核酸报告才能住院。我们没有交通工具前往华山医院做核酸。                                                                                                                <br>联系人：张女士                                                                                                                                                            <br>联系电话：158****8470                                                                            
+                                    
+                                                                    </div>
+                            </div>
+
+                        </td>
+                    </tr>
+                                    <tr style="max-height: 100px;overflow: hidden;">
+                        <td style="white-space:nowrap;padding: 8px 0;">862</td>
+                        <td style="white-space:nowrap;"><img class="help_miniIcons__glGt7"
+                                                             src="https://daohouer-file.oss-cn-shanghai.aliyuncs.com/img/icon3.png">04-11                            <br>22:40:02                        </td>
+                        <td style="white-space:nowrap;"><span class="help_dangrou__b6AF_" style="width: 50px">极紧急</span></td>
+                        <td style="white-space:nowrap;text-align: center">重病</td>
+                        <td>癌症求药</td>
+                        <td style="white-space:nowrap;text-align: center;">徐汇区</td>
+                        <td>
+
+                            <a class="btn" href="#open-modal862">查看</a>
+                            <div id="open-modal862" class="modal-window">
+                                <div>
+                                    <a href="#" title="Close" class="modal-close">Close</a>
+                                                                            <h4 style="font-weight: bold">求助内容</h4>
+                                        急需“依西美坦片6盒”。乳腺癌患者，已断药。                                                                                                                <br>联系人：朱蕙                                                                                                                                                            <br>联系电话：139****5102                                                                            
+                                    
+                                                                    </div>
+                            </div>
+
+                        </td>
+                    </tr>
+                                    <tr style="max-height: 100px;overflow: hidden;">
+                        <td style="white-space:nowrap;padding: 8px 0;">861</td>
+                        <td style="white-space:nowrap;"><img class="help_miniIcons__glGt7"
+                                                             src="https://daohouer-file.oss-cn-shanghai.aliyuncs.com/img/icon2.png">04-11                            <br>22:20:16                        </td>
+                        <td style="white-space:nowrap;"><span class="help_dangrou__b6AF_" style="width: 50px">极紧急</span></td>
+                        <td style="white-space:nowrap;text-align: center">其他</td>
+                        <td>阳性病人</td>
+                        <td style="white-space:nowrap;text-align: center;">宝山区</td>
+                        <td>
+
+                            <a class="btn" href="#open-modal861">查看</a>
+                            <div id="open-modal861" class="modal-window">
+                                <div>
+                                    <a href="#" title="Close" class="modal-close">Close</a>
+                                                                            <h4 style="font-weight: bold">求助内容</h4>
+                                        小区***** 定点隔离  现小区阳性持续增加                                                                                                                <br>联系人：杨先生                                                                                                                                                            <br>联系电话：137****7735                                                                            
+                                    
+                                                                    </div>
+                            </div>
+
+                        </td>
+                    </tr>
+                                </tbody>
+            </table>
+
+            <Div style="height: 15px;clear: both"></Div>
+
+            <div style="height: 30px;text-align: center;-moz-user-select:none; /*火狐*/
+
+    -webkit-user-select:none; /*webkit浏览器*/
+
+    -ms-user-select:none; /*IE10*/
+
+    -khtml-user-select:none; /*早期浏览器*/
+
+    user-select:none;">
+                <div id="prev"
+                     style="height: 30px;width:60px;line-height:30px;border: 1px solid #CCCCCC;border-radius: 5px;display: inline-block;text-align: center;cursor: pointer;">
+                    上一页
+                </div>
+                <div style="height: 30px;min-width: 60px;line-height: 30px;display: inline-block;text-align: center;">
+                    第 282 页
+                </div>
+                <div style="height: 30px;min-width: 60px;line-height: 30px;display: inline-block;text-align: center;">
+                    共 288 页
+                </div>
+                <div id="next"
+                     style="height: 30px;width:60px;line-height:30px;border: 1px solid #CCCCCC;border-radius: 5px;display: inline-block;text-align: center;cursor: pointer;">
+                    下一页
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<script type="text/javascript" charset="utf8"
+        src="https://daohouer-file.oss-cn-shanghai.aliyuncs.com/js/jquery.js"></script>
+<script type="text/javascript" charset="utf8"
+        src="https://daohouer-file.oss-cn-shanghai.aliyuncs.com/js/jquery.dataTables.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('#table_id_example').DataTable({
+            searching: false,
+            ordering: false,
+            bPaginate: false
+        });
+        $('#table_id_example_wrapper').css({'overflow': 'scroll'});
+    });
+
+    $(document).on('click', '#prev', function () {
+        if ($('#page_input').val() > 1) {
+            $('#page_input').val(parseInt($('#page_input').val()) - 1);
+            var form = document.getElementById("sform");
+            form.submit();
+        }
+    })
+
+    $(document).on('click', '#next', function () {
+        if ($('#page_input').val() < 288) {
+            $('#page_input').val(parseInt($('#page_input').val()) + 1);
+            var form = document.getElementById("sform");
+            form.submit();
+        }
+    })
+
+    function subform() {
+        var form = document.getElementById("qform");
+        form.submit();
+    }
+
+    function subform1() {
+        var form = document.getElementById("sform");
+        form.submit();
+    }
+</script>
+</body>
+</html>

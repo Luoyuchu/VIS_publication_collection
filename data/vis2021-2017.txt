@@ -1,0 +1,277 @@
+IEEE VIS 2021
+
+Task-Based Effectiveness of Interactive Contiguous Area Cartograms. Ian Duncan, Shi Tingsheng, Simon Perrault, Michael Gastner. 
+
+DDLVis: Real-time Visual Query of Spatiotemporal Data Distribution via Density Dictionary Learning. Chenhui Li, George Baciu, Yunzhe WANG, Junjie Chen, Changbo Wang
+
+TacticFlow: Visual Analytics of Ever-Changing Tactics in Racket Sports. Jiang Wu, Dongyu Liu, Ziyang Guo, Qingyang Xu, Yingcai Wu
+
+Implicit Error, Uncertainty and Confidence in Visualization: an Archaeological Case Study. Georgia Panagiotidou, Ralf Vandam, Jeroen Poblome, Andrew Vande Moere
+
+An Interactive Visualization System for Spatio-temporal Situation Awareness with Multi-data Fusion. Junting Gao, Siqi Shen, Xingui Lai, QingHong Wang, Jiaqi Dong, Ziyue Lin, Lei Peng, Yijie Hou, Yuheng Zhao, Siming Chen
+
+Geo-Context Aware Study of Vision-Based Autonomous Driving Models and Spatial Video Data. Suphanut Jamonnak, Ye Zhao, Xinyi Huang, Md Amiruzzaman
+
+GeoSneakPique: Visual autocompletion for geospatial queries. Vidya Setlur, Sarah Battersby, Tracy Kam Hung Wong
+
+Visual Cascade Analytics of Large-scale Spatiotemporal Data. Zikun Deng, Di Weng, Yuxuan Liang, Jie Bao, Yu Zheng, Tobias Schreck, Mingliang Xu, Yingcai Wu
+
+Sequen-C: A Multilevel Overview of Temporal Event Sequences. Jessica Magallanes, Tony Stone, Paul Morris, Suzanne Mason, Steven Wood, Maria-Cruz Villa-Uriol
+
+EVis: Visually Analyzing Environmentally Driven Events. Tinghao Feng, Jing Yang, Martha-Cary Eppes, Zhaocong Yang, Faye Moser
+
+Affective Congruence in Visualization Design: Influences on Reading Categorical Maps. Cary Anderson, Anthony Robinson
+
+Edge-Path Bundling: A Less Ambiguous Edge Bundling Approach. Markus Wallinger, Daniel Archambault, David Auber, Martin Nöllenburg, Jaakko Peltonen
+
+CLEVis: A Semantic Driven Visual Analytics System for Community Level Events. Chao Ma, Ye Zhao, Andrew Curtis, Farah Kamw, Shamal AL-Dohuki, Jing Yang, Suphanut Jamonnak, Ismael Ali
+
+QuteVis: Visually Studying Transportation Patterns Using Multi-Sketch Query of Joint Traffic Situations. Shamal AL-Dohuki, Ye Zhao, Farah Kamw, Jing Yang, Xinyue Ye, Wei Chen
+
+Visual Evaluation for Autonomous Driving. Yijie Hou, Chengshun Wang, Junhong Wang, Xiangyang Xue, Xiaolong Zhang, Jun Zhu, Dongliang Wang, Siming Chen
+
+Compass: Towards Better Causal Analysis of Urban Time Series. Zikun Deng, Di Weng, Xiao Xie, Jie Bao, Yu Zheng, Mingliang Xu, Wei Chen, Yingcai Wu
+
+A Visual Analytics System for Water Distribution System Optimization. Yiran Li, Erin Musabandesu, Takanori Fujiwara, Frank J. Loge, Kwan-Liu Ma
+
+
+IEEE VIS 2020
+
+ShuttleSpace: Exploring and Analyzing Movement Trajectory in Immersive Visualization
+Authors: Shuainan Ye, Zhutian Chen, Xiangtong Chu, Yifan Wang, Siwei Fu, Lejun Shen, Kun Zhou, Yingcai Wu
+
+Visilant: Visual Support for the Exploration and Analytical Process Tracking in Criminal Investigations
+Authors: Kristina Zakopcanova, Marko Rehacek, Jozef Batrna, Daniel Plakinger, Sergej Stoppel, Barbora Kozlikova
+
+A Visual Analytics Framework for Reviewing Multivariate Time-Series Data with Dimensionality Reduction
+Authors: Takanori Fujiwara, Shilpika Shilpika, Naohisa Sakamoto, Jorji Nonaka, Keiji Yamamoto, Kwan-Liu Ma
+
+Uncertainty-Oriented Ensemble Data Visualization and Exploration using Variable Spatial Spreading. 
+Authors: Mingdong Zhang, Li Chen, Quan Li, Xiaoru Yuan, Junhai Yong
+
+Extraction and Visualization of Poincaré Map Topology for Spacecraft Trajectory Design
+Authors: Xavier Tricoche, Wayne Schlei, Kathleen Howell
+
+Visual Analytics of Multivariate Event Sequence Data in Racquet Sports
+Authors: Jiang Wu, Ziyang Guo, Zuobin Wang, Qingyang Xu, Yingcai Wu
+
+Constructing Spaces and Times for Tactical Analysis in Football
+Authors: Gennady Andrienko, Natalia Andrienko, Gabriel Anzer, Pascal Bauer, Guido Budziak, Georg Fuchs, Dirk Hecker, Hendrik Weber, Stefan Wrobel
+
+PassVizor: Toward Better Understanding of the Dynamics of Soccer Passes
+Authors: Xiao Xie, Jiachen Wang, Hongye Liang, Dazhen Deng, Shoubin Cheng, Hui Zhang, Wei Chen, Yingcai Wu
+
+Visual Causality Analysis of Event Sequence Data
+Authors: Zhuochen Jin, Shunan Guo, Nan Chen, Daniel Weiskopf, David Gotz, Nan Cao
+
+Sequence Braiding: Visual Overviews of Temporal Event Sequences and Attributes
+Authors: Sara Di Bartolomeo, Yixuan Zhang, Fangfang Sheng, Cody Dunne
+
+Towards Better Bus Networks: A Visual Analytics Approach
+Authors: Di Weng, Chengbo Zheng, Zikun Deng, Mingze Ma, Jie Bao, Yu Zheng, Mingliang Xu, Yingcai Wu
+
+Topology Density Map for Urban Data Visualization and Analysis
+Authors: Zezheng Feng, Haotian Li, Wei Zeng, Shuang-Hua Yang, Huamin Qu
+
+UrbanMotion: Visual Analysis of Metropolitan-Scale Sparse Trajectories
+Authors: Lei Shi, Congcong Huang, Meijun Liu, Jia Yan, Tao Jiang, Zhihao Tan, Yifan Hu, Wei Chen, Xiatian Zhang
+
+Revisiting the Modifiable Areal Unit Problem in Deep Traffic Prediction with Visual Analytics
+Authors: Wei Zeng, Chengqiao Lin, Juncong Lin, Jincheng Jiang, Jiazhi Xia, Cagatay Turkay, Wei Chen
+
+Visual Cause Analytics for Traffic Congestion
+Authors: Mingyu Pi, Hanbyul Yeon, Hyesook Son, Yun Jang
+
+CrimAnalyzer: Understanding Crime Patterns in São Paulo
+Authors: Germain Garcia, Jaqueline Silveira, Jorge Poco, Afonso Paiva, Marcelo Batista Nery, Claudio T. Silva, Sergio Adorno, Luis Gustavo Nonato
+
+A Simple Pipeline for Coherent Grid Maps
+Authors: Wouter Meulemans, Max Sondag, Bettina Speckmann
+
+Zoomless Maps: External Labeling Methods for the Interactive Exploration of Dense Point Sets at a Fixed Map Scale
+Authors: Sven Gedicke, Annika Bonerath, Benjamin Niedermann, Jan-Henrik Haunert
+
+Tilt Map: Interactive Transitions Between Choropleth Map, Prism Map and Bar Chart in Immersive Environments
+Authors: Yalong Yang, Tim Dwyer, Kim Marriott, Bernhard Jenny, Sarah Goodwin
+
+Phoenixmap: An Abstract Approach to Visualize 2D Spatial Distributions
+Authors: Junhan Zhao, Xiang Liu, Chen Guo, Zhenyu Cheryl Qian, Yingjie Victor Chen
+
+MetroSets: Visualizing Sets as Metro Maps
+Authors: Ben Jacobsen, Markus Wallinger, Stephen Kobourov, Martin Nöllenburg
+
+STULL: Unbiased Online Sampling for Visual Exploration of Large Spatiotemporal Data
+Authors: Guizhen Wang, Jingjing Guo, Mingjie Tang, José Florencio de Queiroz, Calvin Yau, Anas Daghistani, Morteza Karimzadeh, Walid Aref, David Ebert
+
+
+IEEE VIS 2019
+CourtTime: Generating Actionable Insights into Tennis Matches Using Visual Analytics
+Authors: Thomas E. Polk, Dominik Jäckle, Johannes Häußler, Jing Yang
+
+Tac-Simur: Visual Analytics for Tactic-based Match Simulation of Table Tennis 
+Authors: Jiachen Wang, Kejian Zhao, Dazhen Deng, Anqi Cao, Xiao Xie, Zheng Zhou, Hui Zhang, Yingcai Wu
+
+COPE: Interactive Exploration of Co-occurrence Patterns in Spatial Time Series
+Authors: Jie Li, Siming Chen, Kang Zhang, Gennady Andrienko, Natalia Andrienko
+
+ A Comparative Evaluation of Animation and Small Multiples for Trend Visualization on Mobile Phones (J)
+Authors: Matthew Brehmer, Bongshin Lee, Petra Isenberg, Eun Kyoung Choe
+
+A Comparison of Visualizations for Identifying Correlation Over Time and Space 
+Authors: Vanessa Peña-Araya, Emmanuel Pietriga, Anastasia Bezerianos
+
+Evaluating an Immersive Space-Time Cube Geovisualization for Intuitive Trajectory Data Exploration
+Authors: Jorge A. Wagner, Wolfgang Stuerzlinger, Luciana Nedel
+
+A Visual Analytics System for Exploring, Monitoring, and Forecasting Road Traffic Congestion 
+Authors: Chunggi Lee, Yeonjun Kim, Seungmin Jin, Dongmin Kim, Ross Maciejewski, David Ebert, Sungahn Ko
+
+SmartCube: An Adaptive Data Management Architecture for the Real-Time Visualization of Spatiotemporal Datasets 
+Authors: Can Liu, Cong Wu, Hanning Shao, Xiaoru Yuan
+
+Real-Time Exploration of Large Spatiotemporal Datasets based on Order Statistics
+Authors: Cícero L. Pahins, Nivan Ferreira, João L. Comba
+
+AirVis: Visual Analytics of Air Pollution Propagation
+Authors: Zikun Deng, Di Weng, Jiahui Chen, Ren Liu, Zhibin Wang, Jie Bao, Yu Zheng, Yingcai Wu
+
+OD Morphing: balancing simplicity with faithfulness for OD bundling
+Authors: Yan Lyu, Xu Liu, Hanyi Chen, Arpan Mangal, Kai Liu, Chao Chen, Brian Lim
+
+Semantics-Space-Time Cube: A Conceptual Framework for Systematic Analysis of Texts in Space and Time
+Authors: Jie Li, Siming Chen, Wei Chen, Gennady Andrienko, Natalia Andrienko
+
+VitalVizor: A Visual Analytics System for Studying Urban Vitality
+Authors: Wei Zeng, Yu Ye
+
+Mapping and Visualizing Deep-Learning Urban Beautification
+Authors: Tobias Kauer, Sagar Joglekar, Miriam Redi, Luca Maria Aiello, Daniele Quercia
+
+Comparison of Radial and Linear charts for Visualizing Daily Patterns
+Authors: Manuela Waldner, Alexandra Diehl, Denis Gracanin, Rainer Splechtna, Claudio Delrieux, Kresimir Matkovic
+
+STBins: Visual Tracking and Comparison of Multiple Data Sequences using Temporal Binning
+Authors: Ji Qi, Vincent Bloemen, Shihan Wang, Jarke van Wijk, Huub van de Wetering
+
+Time Varying Predominance Tag Maps
+Authors: Martin Reckziegel, Stefan Jänicke
+
+A Natural-language-based Visual Query Approach of Uncertain Human Trajectories
+Authors: Zhaosong Huang, Ye Zhao, Wei Chen, Shengjie Gao, Kejie Yu, Weixia Xu, Mingjie Tang, Minfeng Zhu, Mingliang Xu
+
+
+IEEE VIS 2018
+A Visual Analytics Framework for Spatiotemporal Trade Network Analysis
+Authors: Hong Wang, Yafeng Lu, Shade Shutters, Michael Steptoe, Feng Wang, Steven Landis, Ross Maciejewski
+
+Analysis of Flight Variability: a Systematic Approach
+Authors: Natalia Andrienko, Gennady Andrienko, Jose Manuel Cordero Garcia, David Scarlatti
+
+ForVizor: Visualizing Spatio-Temporal Team Formations in Soccer
+Authors: Yingcai Wu, Xiao Xie, Jiachen Wang, Dazhen Deng, Hongye Liang, Hui Zhang, Shoubin Cheng, Wei Chen
+
+Lessons Learned Developing a Visual Analytics Solution for Investigative Analysis of Scamming Activities
+Authors: Jay Koven, Cristian Felix, Hossein Siadati, Enrico Bertini, Markus Jakobsson
+
+MotionRugs: Visualizing Collective Trends in Space and Time
+Authors: Juri Buchmuller, Dominik Jackle, Eren Cakmak, Ulrik Brandes, Daniel Keim
+
+TPFlow: Progressive Partition and Multidimensional Pattern Extraction for Large-Scale Spatio-Temporal Data Analysis 
+Authors: Dongyu Liu, Panpan Xu, Liu Ren
+
+Visual Abstraction of the Large Scale Geospatial Origin-Destination Movement Data
+Authors: Zhiguang Zhou, Linhao Meng, Cheng Tang, Ying Zhao, Zhiyong Guo, Miaoxin Hu, Wei Chen
+
+Visual Progression Analysis of Event Sequence Data
+Authors: Shunan Guo, Zhuochen Jin, David Gotz, Fan Du, Hongyuan Zha, Nan Cao
+
+Temporal Treemaps: Static Visualization of Evolving Trees
+Authors: Wiebke Köpp, Tino Weinkauf
+
+FiberClay: Sculpting Three Dimensional Trajectories to Reveal Structural Insights
+Authors: Christophe Hurter, Nathalie Henry Riche, Steven Drucker, Maxime Cordeil, Richard Alligier, Romain Vuillemot
+
+Popup-Plots: Warping Temporal Data Visualization
+Authors: Johanna Schmidt, Dominik Fleischmann, Bernhard Preim, Norbert Brandle, Gabriel Mistelbauer
+
+A Model of Spatial Directness in Interactive Visualization
+Authors: Stefan Bruckner, Tobias Isenberg, Timo Ropinski, Alexander Wiebel
+
+Animation Plans for Before-And-After Satellite images
+Authors: María-Jesús Lobo, Caroline Appert, Emmanuel Pietriga
+
+Shadow Accrual Maps: Efficient Accumulation of City-Scale Shadows over Time
+Authors: Fabio Miranda, Harish Doraiswamy, Marcos Lage, Luc Wilson, Mondrian Hsieh, Claudio T. Silva
+
+StreamExplorer: A Multi-Stage System for Visually Exploring Events in Social Streams
+Authors: Yingcai Wu, Zhutian Chen, Guodao Sun, Xiao Xie, Nan Cao, Shixia Liu, Weiwei Cui
+
+Visualization of Cultural Heritage Collection Data: State of the Art and Future Challenges
+Authors: Florian Windhager, Paolo Federico, Günther Schreder, Katrin Glinka, Marian Dörk, Silvia Miksch, Eva Mayr
+
+Physical Visualization of Geospatial Datasets
+Authors: Hessam Djavaherpour, Ali Mahdavi-Amiri, Faramarz F. Samavati
+
+Typology of Uncertainty in Static Geolocated Graphs for Visualization
+Authors: Tatiana von Landesberger, Sebastian Bremm, Marcel Wunderlich
+
+Urban Space Explorer: A Visual Analytics System for Urban Planning
+Authors: Alireza Karduni, Isaac Cho, Ginette Wessel, William Ribarsky, Eric Sauda, Wenwen Dou
+
+Terrain Model Reconstruction from Terrestrial LiDAR Data Using Radial Basis Functions
+Authors: Jules Morel, Alexandra Bac, Cédric Véga
+
+IEEE VIS 2017
+
+Bring it to the Pitch: Combining Video and Movement Data to Enhance Team Sport Analysis
+Authors: Manuel Stein, Halldór Janetzko, Andreas Lamprecht, Thorsten Breitkreutz, Philipp Zimmermann, Bastian Goldlücke, Tobias Schreck, Gennady Andrienko, Michael Grossnikla
+
+Clustering Trajectories by Relevant Parts for Air Traffic Analysis
+Authors: Gennady Andrienko, Natalia Andrienko, Georg Fuchs, and Jose Manuel Cordero Garciaus, and Daniel Keim
+
+EVA: Visual Analytics to Identify Fraudulent Events
+Authors: Roger Leite, Theresia Gschwandtner, Silvia Miksch, Simone Kriglstein, Margit Pohl, Erich Gstrein, and Johannes Kuntner
+
+EventThread: Visual Summarization and Stage Analysis of Event Sequence Data
+Authors: Shunan Guo, Ke Xu, Rongwen Zhao, David Gotz, Hongyuan Zha, and Nan Cao
+
+Sequence Synopsis: Optimize Visual Summary of Temporal Event Data
+Authors: Yuanzhe Chen, Panpan Xu, and Liu Ren
+
+Voila: Visual Anomaly Detection and Monitoring with Streaming Spatiotemporal Data
+Authors: Nan Cao, Chaoguang Lin, Qiuhan Zhu, Yu-Ru Lin, Xian Teng, and Xidao Wen
+
+Assessing the Graphical Perception of Time and Speed on 2D + Time Trajectories
+Authors: Charles Perin, Tiffany Wun, Richard Pusch, and Sheelagh Carpendale
+
+Exploring Multivariate Event Sequences using Rules, Aggregations, and Selections
+Authors: Bram Cappers and Jarke van Wijk
+
+Functional Decomposition for Bundled Simpliﬁcation of Trail Sets
+Authors: Christophe Hurter, Stephane Puechmorel, Florence Nicol, and Alex Telea
+
+iTTVis: Interactive Visualization of Table Tennis Data
+Authors: Yingcai Wu, Ji Lan, Xinhuan Shu, Chenyang Ji, Kejian Zhao, Jiachen Wang, and Hui Zhang
+
+TopKube: A Rank-Aware Data Cube for Real-Time Exploration of Spatiotemporal Data
+Authors: Fabio Miranda, Lauro Lins, James Klosowski, and Claudio Silva
+
+Data Flow Analysis and Visualization for Spatiotemporal Statistical Data without Trajectory Information
+Authors: Seokyeon Kim, Seongmin Jeong, Insoo Woo, Yun Jang, Ross Maciejewski, and David Ebert
+
+Evaluating Cartogram Effectiveness
+Authors: Sabrina Nusrat, Muhammad Jawaherul Alam, and Stephen Kobourov
+
+Revealing Patterns and Trends of Mass Mobility through Spatial and Temporal Abstraction of Origin-Destination Movement Data
+Authors: Gennady Andrienko, Natalia Andrienko, Georg Fuchs, and Jo Wood
+
+BKViz: A Basketball Visual Analysis Tool
+Authors: Antonio G. Losada, Roberto Theron, and Alejandro Benito
+
+Director’s Cut: Analysis and Annotation of Soccer Matches
+Authors: Manuel Stein, Halldór Janetzko, Thorsten Breitkreutz, Daniel Seebacher, Tobias Schreck, Michael Grossniklaus, Iain Couzin, and Daniel Keim
+
+StatCast Dashboard: Exploration of Spatiotemporal Baseball Data
+Authors: Marcos Lage, Jorge Henrique Ono, Daniel Cervone, Justin Chiang, Carlos Dietrich, and Claudio Silva
+
+

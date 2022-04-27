@@ -1,5 +1,4 @@
 /test_folder/*
-!/test_folder/.gitkeep
-
 /output/*
-!/output/.gitkeep
+
+!.gitkeep
